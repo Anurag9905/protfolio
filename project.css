@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.root{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f9;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+.contener{
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    margin-bottom: 20px;
+    color: #555;
+  }
+button{
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.Quote-box{
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 4px solid #007bff;
+    font-style: italic;
+    background: #f9f9f9;
+    border-radius: 5px;
+}

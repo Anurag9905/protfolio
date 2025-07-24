@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.root{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#calse{
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-style: normal;
+}
+#sub{
+    margin-top: 20px;
+
+}
+#sub>input{
+    padding: 7px;
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}

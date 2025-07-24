@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dummyzom.css">
+</head>
+<body>
+    <div id="head">
+        <button id="filters">filter</button>
+        <button id="offers">offers</button>
+        <button id="rating">rating 4.5+</button>
+        <button id="alchohol">serves alchohol</button>
+        <button id="Open">Open Now</button>
+    </div>
+       <div id="filterPopup" class="hidden">
+        <h3>Choose filter</h3>
+        <div class="filterOption">
+            <input type="radio" id="sortbyrating" name="sort" value="rating">
+            <label for="sortbyrating">rating high to low</label>
+        </div>
+        <div class="filterOption">
+            <input type="radio" id="sortbyprice" name="sort" value="highLow">
+            <label for="sortbyprice">price high to low</label>
+        </div>
+        <div class="filterOption">
+            <input type="radio" id="sortbycost" name="sort" value="costLowHigh">
+            <label for="sortbycost">cost high to low</label>            
+        </div>
+        <div class="filterOption">
+            <input type="radio" id="sortbydistance" name="sort" value="distance">
+            <label for="sortbydistance">distance</label>            
+        </div>
+        <button id="applyfilter">Apply</button>
+        <button>close</button>
+       </div>
+    <div id="root"></div>
+    <script src="./dummyzom.js"></script>
+</body>
+</html>
