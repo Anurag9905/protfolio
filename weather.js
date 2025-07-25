@@ -17,7 +17,7 @@ button.addEventListener(`click`,(event)=>{
         // weatherInfo.innerHTML=`condition is :${data.current.condition.text}`
         weatherInfo.style.fontSize=`20px`      
     }
-    const obj=fetch(`http://api.weatherapi.com/v1/current.json?key=ef3e281bbb024e318fa124539250907&q=${place}&aqi=yes`)
+    const obj=fetch(`https://api.weatherapi.com/v1/current.json?key=ef3e281bbb024e318fa124539250907&q=${place}&aqi=yes`)
 
     const store=obj.then((value)=>{
         return value.json()
